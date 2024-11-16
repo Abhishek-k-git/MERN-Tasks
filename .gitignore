@@ -1,0 +1,28 @@
+# Ignore node_modules in both client and server folders
+client/node_modules/
+server/node_modules/
+
+# Ignore build artifacts in client
+client/build/
+client/dist/
+client/*.log
+
+# Ignore .env files
+server/.env
+server/.env.local
+
+# Ignore database related files (if applicable)
+server/data/
+server/db/
+
+# Ignore IDE specific files
+*.suo
+*.suo.meta
+*.user
+*.sln
+*.cache
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.pid
